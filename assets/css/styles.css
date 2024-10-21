@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 40%;
+  min-width: 600px;
+  border: 2px solid black;
+  max-height: 100%;
+  background-color: "#a2a2a2";
+  padding: 20px;
+}
+
+.formulario p {
+  font-size: 24px;
+}
+
+#input {
+  font-size: 16px;
+  height: 40px;
+  border-radius: 5px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  width: 80%;
+}
+#btnAgregar {
+  background-color: green;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 15%;
+}
+
+#spanTotal {
+  font-weight: bold;
+  font-size: 24px;
+}
+#spanCompletadas {
+  font-weight: bold;
+  font-size: 24px;
+}
+#spanPendientes {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contadores {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  /* padding: 10px; */
+  width: 20%;
+}
+
+.lista-de-tareas {
+  border: 2px solid red;
+  width: 70%;
+}
+
+tarea-completada {
+  color: red;
+}
+
+.tabla {
+  width: 100%;
+}
+
+thead {
+  padding-left: 10px;
+  text-align: left;
+}
+td {
+  padding-left: 10px;
+  font-size: 24px;
+}
+tr {
+  height: 30px;
+}
+
+.td-botones {
+  display: flex;
+  padding-right: 10px;
+  text-align: right;
+  justify-content: space-around;
+}
+#check {
+  width: 32px;
+  height: 32px;
+}
